@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { FormEvent } from 'react';
+import { useState, FormEvent } from 'react';
 import axios from 'axios';
 
 interface Ivaluations {
@@ -11,6 +10,8 @@ function Valuations () {
     const [valuations, setValuations] = useState<Ivaluations[]>([]);
     const [allVluations, setAllValuations] = useState<Ivaluations[]>([]);
     const [tablekeys, setTableketys] = useState<string[]>([]);
+    const [option, setOption] = useState<string>('Company');
+    const placeHoldervalue = `Search by ${option}`;
 
     const getValuations = async () => {
       try {
@@ -29,46 +30,50 @@ function Valuations () {
       e?.preventDefault();
       const input = e.currentTarget.company.value;  
       // Search in allvaluations array for a company string
-      if( typeof input == 'string'){
+      if( option == 'company'){
         const tempVar = allVluations.filter((valuation) =>  typeof valuation[`company`] === 'string' ? valuation[`company`].toLowerCase() == input.toLowerCase() || valuation[`company`].toLowerCase().includes(input.toLowerCase()): valuation); 
+        setValuations(tempVar);
+      } else {
+        const tempVar = allVluations.filter((valuation) =>  typeof valuation[`id`] === 'number' ? valuation[`id`] == input : valuation); 
         setValuations(tempVar);
       }
     }
+
     return (
       <div>
-        <div className='flex flex-row mt-2'>
-         {true &&
-          <button onClick={() => {getValuations()}} className='bg-[#6e87cc] h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#2e3875] rounded-md text-center font-semibold text-[#ffffff] mx-auto mt-2 hover:bg-[#7adbdb] hover:text-black hover:italic shadow-btnShadow'> Get valuations </button>
-         }
+        <div className='flex flex-row mt-2 space-x-6'>
+          <button onClick={() => {getValuations()}} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#ade3e7] hover:text-black hover:italic hover:border-[#153d5e] shadow-btnShadow'> Get valuations </button>
           {/* show search company if the button is clicked*/}
-          {true &&
           <form onSubmit={handleChangeInput} className="text-center mb-10 h-[2rem] w-[14rem] rounded-md" >
-            <input type="text" className="border-2 border-[#2e3875] text-center w-[12vw] min-w-[12rem] h-[6vh] rounded-full focus:outline-none" name="company" placeholder="Search by company" />
-            <input type="submit" className='bg-[#6e87cc] w-[6vw] min-w-[6rem] p-1 border-2 border-[#2e3875] rounded-md text-center font-semibold text-[#ffffff] mx-auto mt-2 hover:bg-[#7adbdb] hover:text-black hover:italic shadow-btnShadow'/>
+            <input type="text" className="border-2 border-[#2e3875] text-center w-[12vw] min-w-[12rem] h-[3.5rem] rounded-full focus:outline-none" name="company" placeholder={placeHoldervalue} />
+            <input type="submit" className='bg-slate-800 w-[6vw] min-w-[6rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#ade3e7] hover:text-black hover:border-[#153d5e] hover:italic shadow-btnShadow'/>
           </form>
-          }
-          </div>
-        <table className="mx-auto my-10">
+          <select onChange={e => setOption(e.target.value)} defaultValue={'company'} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 shadow-btnShadow focus:outline-none' id="cars">
+            <option value="company">Company</option>
+            <option value="id">Id</option>
+          </select>
+        </div>
+        <table className="my-10">
             <thead>
-                <tr className="text-center border border-slate-600 table-auto bg-slate-200">
+                <tr className="font-[ui-serif] text-center text-[#e48d46] text-[1.2rem] table-auto bg-[#153d5e]">
                     {tablekeys.map((header) => (
-                        <th className=" border border-spacing-2 border-slate-600" key={header}>
-                            {header}
+                        <th className="p-3 border border-spacing-2 border-slate-600" key={header}>
+                            {header.charAt(0).toUpperCase() + header.slice(1)}
                         </th>
                     ))}
                 </tr>
             </thead>
-            <tbody>
+            <tbody className='font-[system-ui]'>
                 {valuations.map((purchase, index) => (
                     <tr 
                         key={index}
                         className={index % 2 == 0
-                            ? "text-center border border-slate-600  bg-slate-100 hover:bg-slate-200"
-                            : "text-center border border-slate-600  bg-stone-200 hover:bg-slate-300"
+                            ? "text-center text-[#c5b8b8] border border-slate-600  bg-slate-700 hover:bg-slate-800 hover:text-white"
+                            : "text-center text-[#d6caca] border border-slate-600  bg-slate-600 hover:bg-slate-800 hover:text-white"
                         }>
                         { tablekeys.map((key) => (
                         <td   key={key}
-                        className="border border-lines border-slate-600">
+                        className="border border-lines border-slate-600 p-2">
                             {purchase[key]}
                         </td>
                         ))}

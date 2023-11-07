@@ -27,7 +27,7 @@ connection.connect((error: Error | null) => {
 app.use(cors());
 
 app.post('/server/valuations', (req: Request, res: Response) => {
-    const valuationQuery = `SELECT purc.id AS id, NAME AS company, num AS total, remaining , DATETIME AS started, expiration 
+    const valuationQuery = `SELECT purc.id AS id, NAME AS company, num AS total, remaining , DATE_FORMAT(DATETIME, "%W %M %e %Y") AS started, DATE_FORMAT(expiration, "%W %M %e %Y") AS expiration 
     FROM valuationgroups val INNER JOIN valuationpurchases purc ON val.id = purc.gid 
     ORDER BY expiration ASC;`
     connection.query(valuationQuery, (error: Error, result: JSON) => {
