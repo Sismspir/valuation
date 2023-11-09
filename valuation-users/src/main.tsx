@@ -1,11 +1,14 @@
 import ReactDOM from 'react-dom/client'
-import {BrowserRouter as Router} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom';
+import AlertContainer from "./Alert/AlertContainer";
 import 'tailwindcss/tailwind.css';
 import App from './App'
-import './index.css'
+import './assets/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <Router>
-        <App />
-    </Router>
+    <AlertContainer>
+        <Router>
+            <App />
+        </Router>
+    </AlertContainer>
 )

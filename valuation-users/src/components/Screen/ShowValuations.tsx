@@ -1,13 +1,15 @@
-import { useState, FormEvent, useEffect } from 'react';
-import { RiArrowUpLine as Up } from 'react-icons/Ri';
 import { RiArrowDownLine as Down} from 'react-icons/Ri';
+import { useState, FormEvent, useEffect } from 'react';
+import { useAlert } from "../../Alert/AlertContainer";
+import { RiArrowUpLine as Up } from 'react-icons/Ri';
+import Loading from './Loading';
 import axios from 'axios';
 
 interface Ivaluations {
   [key:string]: string | number
 }
 
-function Valuations () {
+function ShowValuations () {
 
   const [allVluations, setAllValuations] = useState<Ivaluations[]>([]);
   const [valuations, setValuations] = useState<Ivaluations[]>([]);
@@ -15,9 +17,12 @@ function Valuations () {
   const [sortedAsc, setSortedAsc] = useState<boolean>(true);
   const [tablekeys, setTablekeys] = useState<string[]>([]);
   const [option, setOption] = useState<string>('company');
+  const [loading, setLoading] = useState<boolean>(false);
   const placeHoldervalue = `Search by ${option}`;
+  const { alert } = useAlert();
 
   const getValuations = async () => {
+    setLoading(true);
     try {
       const response = await axios.post(`http://localhost:3000/server/valuations`);
       setValuations(response.data);
@@ -27,20 +32,44 @@ function Valuations () {
     } catch (err) {
       console.log(err);
     }
+    setLoading(false);
   };
   
   const handleChangeInput = (e: FormEvent<HTMLFormElement>) => {
+
     e?.preventDefault();
     const input = e.currentTarget.company.value;  
+
     // Search in allvaluations array for a company string
     if( option == 'company'){
+
+      // Check if the user gave a number as input
+      if (!isNaN(Number(input))){  
+        alert({
+          title: "Attention!",
+          message: "Your input should be a non empty string",
+          autoClose: true,
+        });
+      };
+
       const tempVar = allVluations.filter((valuation) =>  typeof valuation[`company`] === 'string' ? valuation[`company`].toLowerCase() == input.toLowerCase() || valuation[`company`].toLowerCase().includes(input.toLowerCase()): valuation); 
       setValuations([...tempVar]);
+
     } else {
+
+       // Check if the user gave a string as input
+      if (isNaN(Number(input))){
+        alert({
+          title: "Attention!",
+          message: "Your input should be a number",
+          autoClose: true,
+        });
+      }
+
       const tempVar = allVluations.filter((valuation) =>  typeof valuation[`id`] === 'number' ? valuation[`id`] == input : valuation); 
       setValuations([...tempVar]);
     }
-  }
+  };
 
   const sortyByHeader = (header: string) => {
     const tempVar = [...valuations];
@@ -55,21 +84,23 @@ function Valuations () {
     setSortedAsc(!sortedAsc);
     setValuations([...tempVar]);
   };
-  console.log("allvaluations: ", allVluations, "valuations: ", valuations)
+  // console.log("allvaluations: ", allVluations, "valuations: ", valuations);
+
   return (
     <div>
       <div className='flex justify-center mt-2 space-x-6'>
-        <button onClick={getValuations} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#ade3e7] hover:text-black hover:italic hover:border-[#153d5e] shadow-btnShadow'> Get valuations </button>
+        <button onClick={getValuations} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#8ca3c5] hover:text-black hover:italic hover:border-[#153d5e] shadow-btnShadow'> Get valuations </button>
         {/* show search company if the button is clicked */}
         <form onSubmit={handleChangeInput} className="text-center mb-10 h-[2rem] w-[14rem] rounded-md" >
           <input type="text" className="border-2 border-[#2e3875] text-center w-[12vw] min-w-[12rem] h-[3.5rem] rounded-full focus:outline-none" name="company" placeholder={placeHoldervalue} />
-          <input type="submit" className='bg-slate-800 w-[6vw] min-w-[6rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#ade3e7] hover:text-black hover:border-[#153d5e] hover:italic shadow-btnShadow'/>
+          <input type="submit" className='bg-slate-800 w-[6vw] min-w-[6rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#8ca3c5] hover:text-black hover:border-[#153d5e] hover:italic shadow-btnShadow'/>
         </form>
         <select onChange={e => setOption(e.target.value)} defaultValue={'company'} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 shadow-btnShadow focus:outline-none' id="id">
           <option value="company">Company</option>
           <option value="id">Id</option>
         </select>
       </div>
+      {loading ? <div className="my-32 flex justify-center italic"><Loading/></div> :
       <table className="my-10">
           <thead>
               <tr className="font-[ui-serif] text-[#e48d46] text-[1.2rem] table-auto bg-[#153d5e]">
@@ -97,8 +128,8 @@ function Valuations () {
                   </tr>
               ))}
           </tbody>
-      </table>
+      </table>}
     </div>
   )
 }
-export default Valuations;
+export default ShowValuations;
