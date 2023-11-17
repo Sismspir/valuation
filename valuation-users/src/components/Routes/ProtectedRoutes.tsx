@@ -1,5 +1,17 @@
-import {Navigate, Outlet} from 'react-router-dom';
+import { Navigate, useNavigate, Outlet } from 'react-router-dom';
+import React, { useEffect, useContext } from 'react';
 
-export default function ProtectedRoutes() {
-    return true ? <Outlet/> : <Navigate to="/" /> 
-}
+const ProtectedRoutes: React.FC = () => {
+  const navigate = useNavigate();
+  const isLoggedIn = false;
+
+  useEffect(() => {
+    if (!isLoggedIn) {
+      navigate('/', { replace: true });
+    }
+  }, [isLoggedIn, navigate]);
+
+  return isLoggedIn ? <Outlet /> : null;
+};
+
+export default ProtectedRoutes;
