@@ -53,7 +53,7 @@ const Login  = (props: {updateUser: (user:string) => void}) =>{
             <div className='tracking-wider font-serif text-2xl text-[#254352] text-center mb-2 font-bold mx-auto w-1/2'>Login</div>
             <form className="flex flex-col space-y-4 bg-[#708f97] rounded-md p-2" action="submit" onSubmit={handleLogin}>
                 <input className='text-center rounded-md focus:outline-none' placeholder='username' name='username' type="text" />
-                <input className='text-center rounded-md focus:outline-none' placeholder='password' name='password' type="text" />
+                <input className='text-center rounded-md focus:outline-none' placeholder='password' name='password' type="password" />
                 <input className="cursor-pointer border border-[#9dd3e0] bg-[#f5e587] font-serif font-normal text-[#1a494d] w-1/2 self-center rounded-md hover:italic hover:bg-[#f8fa93]" value="Log In" type="submit" />
             </form>
         </div>

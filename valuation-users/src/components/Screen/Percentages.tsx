@@ -1,3 +1,4 @@
+import { spawn } from 'child_process';
 import data from '../../data.json';
 import Loading from "./Loading";
 
@@ -23,138 +24,140 @@ function Percentages() {
 
     // all company names
     const companyNames = [...new Set(data.map((element) => (element.Name)))]; 
+
+    // sort company names 
+    companyNames.sort((a, b) => { 
+        return a.localeCompare(b);
+    });
     // all available years
     const availableYears = [...new Set(data.map((element) => (element.Year)))]; 
-
+    
     // setting years as keys
     for(let k=0; k<availableYears.length; k++){
         companies[`${availableYears[k]}`] = [];
     };
 
-    // for every object in data
-    for(let i=0; i<data.length; i++){
+    // for every year
+    for(let k=0; k<availableYears.length; k++){
+        // for every month
+        for(let i =1; i<=12; i++){
+            // for every comppany
+            for(let j=0; j<companyNames.length; j++){
+                    // initialize the array
+                    companies[availableYears[k]].push({ NameID: "0", Name: `${companyNames[j]}`, Year: availableYears[k], Month: i, Hits: 0 }); 
+                                
+            };
+        };
+    };
+
+    // for every year
+    for(let k=0; k<availableYears.length; k++){
+        // for every object in data
+        for(let i=0; i<data.length; i++){
             // for every different name you find in data
             for(let j=0; j<companyNames.length; j++){
 
-                    if(companyNames[j] == data[i].Name){
-                        companies[`${data[i].Year}`].push(data[i]); 
-                    };
-            };
-        
-        // example for iad
-        if(data[i].Name === 'iAD' && data[i].Year === 2021)
-        iAD2021.push(data[i]);
-    };
+                        if(companyNames[j] == data[i].Name && data[i].Year == availableYears[k]){
+                            // companies[`${data[i].Year}`].push(data[i]);
+                            const currentObj = companies[`${availableYears[k]}`].find(obj => obj.Name == data[i].Name && obj.Month  == data[i].Month && obj.Year == availableYears[k] );  
+                            // fill the object with the new values
+                            if(currentObj){
+                            currentObj.NameID = data[i].NameID ;
+                            currentObj.Hits = data[i].Hits;
+                            currentObj.Year = availableYears[k];
+                            };
+                        };
+                };
+            // example for iad
+            if(data[i].Name === 'iAD' && data[i].Year === availableYears[k])
+            iAD2021.push(data[i]);
 
-    // all available months
-    const months = iAD2021.map((month) => (month.Month));
-    // all company keys
-    const arrayKeys = Object.keys(iAD2021[0]);
-   
-    // fill empty shels -- problem with aegean and santader and...
-    for(let i=0; i<companies['2021'].length; i++){
-
-        let currentid = companies[2021][i].NameID;
-        let currentCompany = companies[2021][i].Name;
-
-        // fill the previous month
-        if(i != 0 && companies['2021'][i].Month !== companies['2021'][i-1].Month + 1 && companies['2021'][i].Month != 1 && (companies['2021'][i].Month !== companies['2021'][i-1].Month + 1) ){
-
-            // console.log(currentCompany, companies['2021'][i].Month);
-            companies[`2021`].push({
-                NameID: currentid,
-                Name: currentCompany, 
-                Year: data[i].Year,
-                Month: companies['2021'][i].Month - 1, 
-                Hits: 0, 
-                
-            });
-
-        };
-
-        // fill the next month
-        if(companies['2021'][i].Month !== 12 && companies['2021'][i].Month + 1 !== companies['2021'][i+1].Month){
-            // console.log(currentCompany, companies['2021'][i].Month);
-            companies[`2021`].push({
-                NameID: currentid,
-                Name: currentCompany, 
-                Year: data[i].Year,
-                Month: companies['2021'][i].Month + 1, 
-                Hits: 0, 
-            });
-        }
-
-        // sort the companies array
-        companies['2021'].sort((a, b) => { 
-            if(a.Name === b.Name) { 
+            // sort the companies array
+            companies[availableYears[k]].sort((a, b) => { 
+                if(a.Name === b.Name) { 
+                    return a.Month - b.Month;
+                };
                 return a.Month - b.Month;
-            }
-            return a.Name.localeCompare(b.Name);
-        });
+            });
+        };
     };
 
+    console.log(companies);
+    // all available months
+    const months = [...new Set(iAD2021.map((month) => (month.Month)))];
     // calculate percentages
-    // calculate total hits for each company
+
     interface Itotalhits {
         [key:string]: number; 
-      }
+    };
 
-    let totalHits:Itotalhits = {};
-    for( let i=0; i<companyNames.length; i++ ){
-        totalHits[`${companyNames[i]}`] = 0 
+    interface Iyearhits {
+        [key:string]: Itotalhits;
+    };
+
+    let totalHits:Iyearhits = {};
+
+    for(let j=0; j<availableYears.length; j++){
+
+        for( let i=0; i<companyNames.length; i++ ){
+
+            console.log(`year: ${availableYears[j]}, company: ${companyNames[i]}`)
+            if( totalHits[availableYears[j]] === undefined ) totalHits[availableYears[j]] = {};
+            totalHits[availableYears[j]][companyNames[i]] = 0; 
+        };
     };
 
     let totalAllCompanies = 0;
     // calculate total hits fore each company
-    for(let i=0; i<companies['2021'].length; i++){
-            totalHits[companies['2021'][i].Name] += companies['2021'][i].Hits;
-            totalAllCompanies += companies['2021'][i].Hits;
+    for(let j=0; j<availableYears.length; j++){
+        for(let i=0; i<companies[`${availableYears[j]}`].length; i++){
+                totalHits[`${availableYears[j]}`][companies[`${availableYears[j]}`][i].Name] += companies[`${availableYears[j]}`][i].Hits;
+                totalAllCompanies += companies[`${availableYears[j]}`][i].Hits;
+        };
     };
-
-    console.log(totalHits, totalAllCompanies);
-    // console.log(companies['2021'])
+    console.log(totalHits, months);
+    // console.log(totalHits, totalAllCompanies);
+    console.log(companies['2021'])
     return(
             <div className="flex flex-col justify-center space-y-10">
                 <p className="self-center">Percentages</p>
                 {/* <Loading/> */}
-                      <table className="my-10">
-                            <thead>
-
-                                <tr className="font-[ui-serif] text-[#e48d46] text-[1.2rem] table-auto bg-[#153d5e]">
-                                    <th className="border border-spacing-2 border-slate-600"><div className='flex flex-row justify-center items-center py-4 px-10 pl-6'></div></th>
-                                    {months.map((month) => (
-                                        <th className="border border-spacing-2 border-slate-600" key={month}>
-                                            <div className='flex flex-row justify-center items-center py-4 pr-3 pl-6'>{month}</div>
-                                        </th>
-                                    ))}
-                                    <th>total</th>
-                                    <th>total %</th>
-                                </tr>
-                            </thead>
-                            <tbody className='font-[system-ui]'>
-                                { companyNames.map( (name, indexKey) => (
-                                <tr>
-                                <th className='text-[#c5b8b8] border border-slate-600  bg-slate-700 hover:bg-slate-800 hover:text-white text-center'>{name}</th>
-                                {companies['2021'].map((item, index) => (    
-                                    item.Name == name &&             
-                                    <th 
-                                        key={item.Month}
-                                        className={index % 2 == 0
-                                            ? "text-[#c5b8b8] border border-slate-600  bg-slate-700 hover:bg-slate-800 hover:text-white p-3"
-                                            : " text-[#d6caca] border border-slate-600  bg-slate-600 hover:bg-slate-800 hover:text-white p-3"
-                                        }>
-                                        <td  key={indexKey}
-                                        className="border-slate-600">
-                                            {item.Hits + ' '} 
-                                            {`Month: ${item.Month}`} {`row: ${indexKey +1}`}
-                                        </td>
-                                    </th>         
+                {/* FOR LOOP 2  YEARS */}
+                    <table className="my-10">
+                        <thead className=''>
+                            <tr className="h-16 font-[ui-serif] text-white text-[1.2rem] table-auto bg-[#2e2a2a]">
+                                <th className='border-t border-[#2e2a2a] border-l'></th> 
+                                <th className='border-t border-[#2e2a2a]' colSpan={12}>2021</th> 
+                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[3px] border-orange-500 mx-2'>Total</span></th>
+                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[3px] border-orange-500 mx-2'>Total %</span></th>
+                            </tr>
+                            <tr className="h-12 font-[ui-serif] text-white text-[1.2rem] table-auto bg-[#0c4574] border-l border-[#0c4574]">
+                                <th></th> 
+                                {months.map((month, index) => (
+                                <th key={index}>{month}</th>
                                 ))}
-                                <td className='text-[#c5b8b8] border border-slate-600  bg-slate-700 hover:bg-slate-800 hover:text-white text-center'>{totalHits[`${name}`]}</td>
-                                <td className='text-[#c5b8b8] border border-slate-600  bg-slate-700 hover:bg-slate-800 hover:text-white text-center'>{(totalHits[`${name}`]/totalAllCompanies*100).toFixed(2) }%</td>
-                                </tr>))}
-                            </tbody>
-                        </table>
+                            </tr>
+                        </thead>
+                        <tbody className='font-[system-ui]'>
+                            { companyNames.map( (name, indexKey) => (
+                            <tr>
+                            <th className='text-gray-500 border-b-[2.4px] border-l-[2.4px] border-gray-400  bg-gray-200 hover:bg-slate-800 hover:text-white text-center'>{name}</th>
+                            {companies['2021'].map((item, index) => (    
+                                item.Name == name &&             
+                                <th 
+                                    key={item.Month}
+                                    className="border border-gray-400 hover:bg-slate-800 hover:text-white p-3 bg-white">
+                                    <td  key={indexKey}
+                                    className="border-slate-600 text-[#040404] flex justify-center">
+                                        {item.Hits !== 0 ? item.Hits : <span className='text-red-600'>x</span>} 
+                                    </td>
+                                </th>         
+                            ))}
+                            <td className='text-[#040404] bg-[#454545] hover:bg-slate-800 hover:text-white text-center'>{totalHits['2021'][`${name}`]}</td>
+                            <td className='text-[#040404] bg-[#454545] hover:bg-slate-800 hover:text-white text-center'>{(totalHits['2021'][`${name}`]/totalAllCompanies*100).toFixed(2) } <span className='text-orange-500'>%</span></td>
+                            </tr>))}
+                    </tbody>
+                </table>
             </div>
     )
 }
