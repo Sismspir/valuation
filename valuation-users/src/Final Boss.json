@@ -1,0 +1,5119 @@
+[
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 3,
+        "Hits": 87
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 2834
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 370
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 182
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 222
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 227
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 283
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 320
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 234
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 231
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 281
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 262
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 393
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 32
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 125
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 135
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 87
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 42
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 207
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 232
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 186
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 150
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 271
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 288
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 217
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 253
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 429
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 398
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 278
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 75
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 257
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 273
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 344
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 293
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 210
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 296
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 311
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 395
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 454
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 430
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 371
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 219
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 290
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 264
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 290
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 204
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 172
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 150
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 433
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 229
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 319
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 192
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 137
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 122
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 163
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 268
+    },
+    {
+        "NameID": "1",
+        "Name": "iAD",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 22
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 1598
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 77
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 144
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 151
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 55
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 254
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 193
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 135
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 128
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 219
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 102
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 185
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 49
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 77
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 110
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 62
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 20
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 159
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 79
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 108
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 67
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 91
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 96
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 84
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 90
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 143
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 156
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 122
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 123
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 207
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 189
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 170
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 131
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 153
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 176
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 129
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 101
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 128
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 130
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 136
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 85
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 109
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 153
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 533
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 144
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 159
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 194
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 223
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 180
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 275
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 222
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 214
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 119
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 228
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 305
+    },
+    {
+        "NameID": "13",
+        "Name": "Executive Lease",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 53
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 1578
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 288
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 254
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 270
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 114
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 330
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 355
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 378
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 219
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 324
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 295
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 100
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 2
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 136
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 344
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 226
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 201
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 281
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 275
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 215
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 198
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 219
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 231
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 295
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 277
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 295
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 283
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 196
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 130
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 286
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 148
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 165
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 144
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 124
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 135
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 103
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 131
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 104
+    },
+    {
+        "NameID": "15",
+        "Name": "Karenta",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 24
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 676
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 124
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 114
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 92
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 90
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 66
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 149
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 89
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 107
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 82
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 109
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 43
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 13
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 61
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 67
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 66
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 26
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 62
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 60
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 48
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 64
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 55
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 55
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 70
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 53
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 71
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 91
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 59
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 40
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 49
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 46
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 72
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 36
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 34
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 55
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 51
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 33
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 61
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 43
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 51
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 24
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 56
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 49
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 69
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 61
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 50
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 37
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 32
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 30
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 31
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 29
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 54
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 32
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 87
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 53
+    },
+    {
+        "NameID": "16",
+        "Name": "BMW Bank",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 2
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 291
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 175
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 31
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 1
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 99
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 22
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 144
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 8
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 1
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 4
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 80
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 9
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 7
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 64
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 6
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 10
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 83
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 7
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 5
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 12
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 1
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 4
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 73
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 1
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 16
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 1
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 102
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 4
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 3
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 4
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 3
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 4
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 27
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 4
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 2
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 19
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 7
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 148
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 5
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 20
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 5
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 1
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 17
+    },
+    {
+        "NameID": "18",
+        "Name": "Eurolease",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 8
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 194
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 14
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 9
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 2
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 7
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 23
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 2
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 26
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 2
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 4
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 19
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 22
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 4
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 4
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 5
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 14
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 22
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 51
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 45
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 11
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 9
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 19
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 18
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 4
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 10
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 13
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 6
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 4
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 27
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 6
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 4
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 52
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 503
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 124
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 156
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 179
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 84
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 124
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 101
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 124
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 138
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 180
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 139
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 194
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 220
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 245
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 288
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 181
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 121
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 122
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 247
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 279
+    },
+    {
+        "NameID": "20",
+        "Name": "FCA",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 8
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 1411
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 211
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 114
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 154
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 122
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 122
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 161
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 119
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 156
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 125
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 187
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 87
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 2
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 120
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 241
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 141
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 160
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 241
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 135
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 287
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 157
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 209
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 115
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 191
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 151
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 152
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 136
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 142
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 169
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 174
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 197
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 207
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 208
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 175
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 212
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 177
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 143
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 166
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 120
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 95
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 117
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 107
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 118
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 136
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 144
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 159
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 127
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 160
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 144
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 233
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 237
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 160
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 113
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 89
+    },
+    {
+        "NameID": "21",
+        "Name": "Mondial Assistance",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 126
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 1476
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 3
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 8
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 1
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 1
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 3
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 7
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 8
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 8
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 6
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 5
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 4
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 10
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 13
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 17
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 6
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 16
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 12
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 10
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 11
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 8
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 10
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 6
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 22
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 11
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 10
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 1
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 4
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 11
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 28
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 32
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 21
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 20
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 6
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 3
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 3
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 1
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 2
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 1
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 7
+    },
+    {
+        "NameID": "22",
+        "Name": "SGAAS",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 4
+    },
+    {
+        "NameID": "23",
+        "Name": "Emporiki Rent",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 419
+    },
+    {
+        "NameID": "23",
+        "Name": "Emporiki Rent",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 4
+    },
+    {
+        "NameID": "23",
+        "Name": "Emporiki Rent",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 5
+    },
+    {
+        "NameID": "23",
+        "Name": "Emporiki Rent",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 8
+    },
+    {
+        "NameID": "23",
+        "Name": "Emporiki Rent",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 4
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 46
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 6
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 20
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 8
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 15
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 3
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 4
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 10
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 4
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 8
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 3
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 3
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 1
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 3
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 7
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 4
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 2
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 11
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 5
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 13
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 9
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 3
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 9
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 12
+    },
+    {
+        "NameID": "24",
+        "Name": "VW Bank",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 7
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 33
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 6
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 20
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 9
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 28
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 35
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 31
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 22
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 19
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 17
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 41
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 15
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 26
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 9
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 6
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 11
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 17
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 17
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 25
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 23
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 52
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 44
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 64
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 175
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 268
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 192
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 181
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 133
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 133
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 150
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 136
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 76
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 86
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 60
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 61
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 67
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 48
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 57
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 50
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 58
+    },
+    {
+        "NameID": "25",
+        "Name": "Allianz",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 24
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 4
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 96
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 5
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 58
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 61
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 51
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 22
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 8
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 53
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 5
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 4
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 27
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 22
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 25
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 5
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 10
+    },
+    {
+        "NameID": "27",
+        "Name": "Saracakis",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 12
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 35
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 99
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 69
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 88
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 226
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 60
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 12
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 9
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 2
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 2
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 1
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 3
+    },
+    {
+        "NameID": "28",
+        "Name": "Aegean",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 1
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 167
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 58
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 75
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 31
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 12
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 2
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 25
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 26
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 33
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 12
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 38
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 1
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 3
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 13
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 14
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 7
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 7
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 12
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 45
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 31
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 8
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 43
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 60
+    },
+    {
+        "NameID": "29",
+        "Name": "Avis",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 15
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 4
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 17
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 64
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 6
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 4
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 4
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 16
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 6
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 1
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 9
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 20
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 2
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 10
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 12
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 17
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 21
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 19
+    },
+    {
+        "NameID": "30",
+        "Name": "Santander",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 2
+    },
+    {
+        "NameID": "31",
+        "Name": "Carantee",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 5
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 20
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 172
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 48
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 134
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 116
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 5
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 1
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 7
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 10
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 11
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 4
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 8
+    },
+    {
+        "NameID": "33",
+        "Name": "NBG",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 7
+    },
+    {
+        "NameID": "34",
+        "Name": "Spotawheel",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 10
+    },
+    {
+        "NameID": "38",
+        "Name": "Kinsen",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 14
+    },
+    {
+        "NameID": "38",
+        "Name": "Kinsen",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 5
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 3429
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 129
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 163
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 191
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 90
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 134
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 189
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 175
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 140
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 163
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 204
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 132
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 80
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 159
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 196
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 217
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 88
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 168
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 163
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 200
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 135
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 140
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 176
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 177
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 174
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 167
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 180
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 218
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 186
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 180
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 192
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 193
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 176
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 124
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 201
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 174
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 149
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 200
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 216
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 203
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 156
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 256
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 253
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 291
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 221
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 169
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 196
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 174
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 185
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 257
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 244
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 173
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 77
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 83
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 194
+    },
+    {
+        "NameID": "6",
+        "Name": "NBG Insurance",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 11
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 4925
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 123
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 321
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 105
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 97
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 674
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 216
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 678
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 145
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 250
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 494
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 128
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 109
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 234
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 378
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 147
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 326
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 648
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 191
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 321
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 198
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 169
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 297
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 788
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 202
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 275
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 493
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 158
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 120
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 9,
+        "Hits": 804
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 10,
+        "Hits": 104
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 11,
+        "Hits": 200
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2021,
+        "Month": 12,
+        "Hits": 156
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 107
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 2,
+        "Hits": 111
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 3,
+        "Hits": 95
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 4,
+        "Hits": 961
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 5,
+        "Hits": 117
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 6,
+        "Hits": 120
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 7,
+        "Hits": 119
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 8,
+        "Hits": 95
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 9,
+        "Hits": 798
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 10,
+        "Hits": 667
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 11,
+        "Hits": 225
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2022,
+        "Month": 12,
+        "Hits": 166
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 1,
+        "Hits": 230
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 2,
+        "Hits": 168
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 3,
+        "Hits": 533
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 4,
+        "Hits": 269
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 5,
+        "Hits": 228
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 342
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 316
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 123
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 177
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 926
+    },
+    {
+        "NameID": "8",
+        "Name": "Ald Automotive",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 146
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 4,
+        "Hits": 162
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 5,
+        "Hits": 69
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 6,
+        "Hits": 71
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 7,
+        "Hits": 75
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 8,
+        "Hits": 36
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 9,
+        "Hits": 89
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 10,
+        "Hits": 105
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 11,
+        "Hits": 104
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2019,
+        "Month": 12,
+        "Hits": 90
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 1,
+        "Hits": 77
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 2,
+        "Hits": 86
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 3,
+        "Hits": 26
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 4,
+        "Hits": 45
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 5,
+        "Hits": 54
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 6,
+        "Hits": 80
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 7,
+        "Hits": 78
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 8,
+        "Hits": 42
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 9,
+        "Hits": 95
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 10,
+        "Hits": 80
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 11,
+        "Hits": 70
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2020,
+        "Month": 12,
+        "Hits": 50
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 1,
+        "Hits": 88
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 2,
+        "Hits": 64
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 3,
+        "Hits": 87
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 4,
+        "Hits": 91
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 5,
+        "Hits": 75
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 6,
+        "Hits": 52
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 7,
+        "Hits": 28
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2021,
+        "Month": 8,
+        "Hits": 2
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2022,
+        "Month": 1,
+        "Hits": 15
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2023,
+        "Month": 6,
+        "Hits": 5
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2023,
+        "Month": 7,
+        "Hits": 8
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2023,
+        "Month": 8,
+        "Hits": 24
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2023,
+        "Month": 9,
+        "Hits": 29
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2023,
+        "Month": 10,
+        "Hits": 12
+    },
+    {
+        "NameID": "9",
+        "Name": "Lamda star",
+        "Year": 2023,
+        "Month": 11,
+        "Hits": 1
+    }
+]

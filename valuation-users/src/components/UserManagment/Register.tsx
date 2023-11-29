@@ -58,7 +58,7 @@ const Register: React.FC = () => {
     };
 
     const goLogin = () => {
-        navigate('/');
+        navigate('/login');
     };
 
     return(

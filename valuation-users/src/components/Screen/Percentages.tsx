@@ -1,6 +1,6 @@
-import { spawn } from 'child_process';
-import data from '../../data.json';
-import Loading from "./Loading";
+import { ToastContainer, toast } from 'react-toastify';
+import { useEffect, useState } from 'react';
+import data from '../../Final Boss.json';
 
 interface Idata {
     NameID: string,
@@ -14,13 +14,11 @@ interface Icompanies {
     [key:string]: Idata[]; 
   }
 
-interface Itotalhits {
-    [key:string]: number; 
-  }
-
 function Percentages() {
+    const [startingYear, setStartingYear] = useState<number>(2019);
+    const [endingYear, setEndingYear] = useState<number>(2019);
+    const [yearsToMap, setYearsToMap] = useState<number[]>([2019, 2020]);
     const companies: Icompanies = {};
-    const iAD2021 = [];
 
     // all company names
     const companyNames = [...new Set(data.map((element) => (element.Name)))]; 
@@ -44,8 +42,7 @@ function Percentages() {
             // for every comppany
             for(let j=0; j<companyNames.length; j++){
                     // initialize the array
-                    companies[availableYears[k]].push({ NameID: "0", Name: `${companyNames[j]}`, Year: availableYears[k], Month: i, Hits: 0 }); 
-                                
+                    companies[availableYears[k]].push({ NameID: "0", Name: `${companyNames[j]}`, Year: availableYears[k], Month: i, Hits: 0 });                            
             };
         };
     };
@@ -68,9 +65,6 @@ function Percentages() {
                             };
                         };
                 };
-            // example for iad
-            if(data[i].Name === 'iAD' && data[i].Year === availableYears[k])
-            iAD2021.push(data[i]);
 
             // sort the companies array
             companies[availableYears[k]].sort((a, b) => { 
@@ -82,11 +76,10 @@ function Percentages() {
         };
     };
 
-    console.log(companies);
     // all available months
-    const months = [...new Set(iAD2021.map((month) => (month.Month)))];
-    // calculate percentages
+    const months = [1,2,3,4,5,6,7,8,9,10,11,12];
 
+    // calculate percentages
     interface Itotalhits {
         [key:string]: number; 
     };
@@ -97,39 +90,106 @@ function Percentages() {
 
     let totalHits:Iyearhits = {};
 
-    for(let j=0; j<availableYears.length; j++){
+    let grandTotal:Itotalhits = {};
+
+    let totalAllCompanies:Itotalhits = {};
+
+    for(let j=0; j<yearsToMap.length; j++){
 
         for( let i=0; i<companyNames.length; i++ ){
 
-            console.log(`year: ${availableYears[j]}, company: ${companyNames[i]}`)
-            if( totalHits[availableYears[j]] === undefined ) totalHits[availableYears[j]] = {};
-            totalHits[availableYears[j]][companyNames[i]] = 0; 
+            if( totalHits[yearsToMap[j]] === undefined ) totalHits[yearsToMap[j]] = {};
+
+            totalHits[yearsToMap[j]][companyNames[i]] = 0; 
+
+            grandTotal[companies[`${yearsToMap[j]}`][i].Name] = 0;
         };
+
+        totalAllCompanies[`${yearsToMap[j]}`] = 0;
     };
 
-    let totalAllCompanies = 0;
-    // calculate total hits fore each company
-    for(let j=0; j<availableYears.length; j++){
-        for(let i=0; i<companies[`${availableYears[j]}`].length; i++){
-                totalHits[`${availableYears[j]}`][companies[`${availableYears[j]}`][i].Name] += companies[`${availableYears[j]}`][i].Hits;
-                totalAllCompanies += companies[`${availableYears[j]}`][i].Hits;
+    let sumGrandTotal = 0;
+
+    for(let j=0; j<yearsToMap.length; j++){
+
+        for(let i=0; i<companies[`${yearsToMap[j]}`].length; i++){
+                // calculate total hits fore each company
+                totalHits[`${yearsToMap[j]}`][companies[`${yearsToMap[j]}`][i].Name] += companies[`${yearsToMap[j]}`][i].Hits;
+                totalAllCompanies[`${yearsToMap[j]}`] += companies[`${yearsToMap[j]}`][i].Hits;
+
+                // calculate grand total hits fore each company
+                grandTotal[companies[`${yearsToMap[j]}`][i].Name] += companies[`${yearsToMap[j]}`][i].Hits;
+                sumGrandTotal += companies[`${yearsToMap[j]}`][i].Hits;
         };
     };
-    console.log(totalHits, months);
-    // console.log(totalHits, totalAllCompanies);
-    console.log(companies['2021'])
+    // when "starting year" option changes
+    const handleStarting = (e:any) => {
+        e.preventDefault();
+        let input = e.currentTarget;
+        setStartingYear(parseInt(input.value));
+    };
+    // when "ending year" option changes
+    const handleEnding = (e:any) => {
+        e.preventDefault();
+        let input = e.currentTarget;
+        setEndingYear(parseInt(input.value));
+    };
+
+    // display different tables when starting/ending year changes
+    useEffect(() => {
+
+        // exit if ending year is lower than starting
+        if(endingYear < startingYear){
+            const notify = () => toast("Starting year cant be greater than ending year");
+            notify();
+            return;
+        };
+        // set the yearsToMap variable depending on the user's option
+        function initializeArray(startingYear: number, endingYear: number) {
+            let newArr = [];
+            for(let i=startingYear; i<=endingYear; i++){
+                newArr.push(i);
+            };
+          setYearsToMap(newArr); 
+        };
+
+        initializeArray(startingYear, endingYear);
+
+    }, [startingYear, endingYear])
+
     return(
-            <div className="flex flex-col justify-center space-y-10">
-                <p className="self-center">Percentages</p>
-                {/* <Loading/> */}
-                {/* FOR LOOP 2  YEARS */}
-                    <table className="my-10">
-                        <thead className=''>
+            <div className="mb-10 flex flex-col justify-center space-y-10">
+                <div className='mb-10 flex justify-center space-x-4'>
+                    <div>
+                    <p className='flex flex-col text-center text-xl font-bold italic text-[#477099]'>Starting</p>
+                        <select className='min-h-[3rem] p-2 h-[3vh] bg-[#5b9cd2] text-[#ffffff] text-lg' value={startingYear} name="starting" id="starting" onChange={handleStarting}>
+                            {availableYears.map((year, sind) => (<option key={sind} value={year}>{year}</option>))}
+                        </select>
+                    </div>
+                    <div>
+                        <p className='flex flex-col text-center text-xl font-bold italic text-[#477099]' >Ending</p>
+                        <select className='min-h-[3rem] p-2 h-[3vh] bg-[#5b9cd2] text-[#ffffff] text-lg' value={endingYear} name="ending" id="ending" onChange={handleEnding}>
+                            {availableYears.map((year, eind) => (<option key={eind} value={year}>{year}</option>))}
+                        </select>
+                    </div>
+                    <div>
+                        <ToastContainer
+                        position="top-right"
+                        newestOnTop={false}
+                        limit={4}
+                        theme="light"/>
+                    </div>
+                </div>
+                { yearsToMap.map((year) => 
+                    (<table className='shadow-btnShadow'>
+                        <thead>
                             <tr className="h-16 font-[ui-serif] text-white text-[1.2rem] table-auto bg-[#2e2a2a]">
                                 <th className='border-t border-[#2e2a2a] border-l'></th> 
-                                <th className='border-t border-[#2e2a2a]' colSpan={12}>2021</th> 
-                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[3px] border-orange-500 mx-2'>Total</span></th>
-                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[3px] border-orange-500 mx-2'>Total %</span></th>
+                                <th className='border-t border-[#2e2a2a]' colSpan={12}>{year}</th> 
+                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[2px] border-orange-500 mx-2'>Total</span></th>
+                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[2px] border-orange-500 mx-2'>Total %</span></th>
+                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[2px] border-orange-500 mx-2'>Grand Total</span></th>
+                                <th rowSpan={2} className='bg-[#454545] border border-[#7f7d7d]'><span className='border-b-[2px] border-orange-500 mx-2'>Grand Total %</span></th>
                             </tr>
                             <tr className="h-12 font-[ui-serif] text-white text-[1.2rem] table-auto bg-[#0c4574] border-l border-[#0c4574]">
                                 <th></th> 
@@ -139,25 +199,29 @@ function Percentages() {
                             </tr>
                         </thead>
                         <tbody className='font-[system-ui]'>
-                            { companyNames.map( (name, indexKey) => (
+                            { companyNames.map((name, indexKey) => (
                             <tr>
-                            <th className='text-gray-500 border-b-[2.4px] border-l-[2.4px] border-gray-400  bg-gray-200 hover:bg-slate-800 hover:text-white text-center'>{name}</th>
-                            {companies['2021'].map((item, index) => (    
+                            <th key={indexKey} className='text-gray-500 border-b-[2.4px] border-l-[2.4px] border-gray-400  bg-gray-200 hover:bg-slate-400 hover:text-white text-center shadow-companyShadow px-2'>{name}</th>
+                            { companies[`${year}`] && companies[`${year}`].map((item, index) => (    
                                 item.Name == name &&             
                                 <th 
                                     key={item.Month}
-                                    className="border border-gray-400 hover:bg-slate-800 hover:text-white p-3 bg-white">
-                                    <td  key={indexKey}
+                                    className="border border-gray-400 hover:bg-slate-400 hover:text-white p-3 bg-white">
+                                    <td  key={index}
                                     className="border-slate-600 text-[#040404] flex justify-center">
-                                        {item.Hits !== 0 ? item.Hits : <span className='text-red-600'>x</span>} 
+                                        {item.Hits !== 0 ? item.Hits : <span className='text-red-700'>X</span>} 
                                     </td>
                                 </th>         
                             ))}
-                            <td className='text-[#040404] bg-[#454545] hover:bg-slate-800 hover:text-white text-center'>{totalHits['2021'][`${name}`]}</td>
-                            <td className='text-[#040404] bg-[#454545] hover:bg-slate-800 hover:text-white text-center'>{(totalHits['2021'][`${name}`]/totalAllCompanies*100).toFixed(2) } <span className='text-orange-500'>%</span></td>
+                            <td className='text-[#f1eaea] bg-[#454545] hover:bg-slate-800 hover:text-white text-center border-b border-[#635c5c]'>{totalHits[`${year}`][`${name}`]}</td>
+                            <td className='text-[#f1eaea] bg-[#454545] hover:bg-slate-800 hover:text-white text-center border-b border-[#635c5c]'>{(totalHits[`${year}`][`${name}`]/totalAllCompanies[`${year}`]*100).toFixed(2) } <span className='text-orange-500'>%</span></td>
+                      
+                            <td className='text-[#f1eaea] bg-[#454545] hover:bg-slate-800 hover:text-white text-center border-b border-[#635c5c]'>{ year === yearsToMap[0] ? grandTotal[`${name}`] : (<span className='text-orange-500'>*</span>)}</td>
+                            <td className='text-[#f1eaea] bg-[#454545] hover:bg-slate-800 hover:text-white text-center border-r border-b border-[#635c5c]'>{year === yearsToMap[0] ? (grandTotal[`${name}`]/sumGrandTotal*100).toFixed(2) : (<span className='text-orange-500'>*</span>)}{ year === yearsToMap[0] ? (<span className='text-orange-500'> %</span>) : ""}</td>
                             </tr>))}
                     </tbody>
-                </table>
+                </table>)
+            )} 
             </div>
     )
 }

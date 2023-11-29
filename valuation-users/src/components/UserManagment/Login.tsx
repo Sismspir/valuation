@@ -1,4 +1,3 @@
-import React from 'react';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 import { FormEvent } from 'react';
@@ -21,12 +20,14 @@ const Login  = (props: {updateUser: (user:string) => void}) =>{
                 const response = await axios.post('http://localhost:3000/server/login', {username, password});
                 if(response.data) {
                     props.updateUser(username);
-                    console.log(`${username} successfully logged in`);
+                    console.log(`[Login] Response #1, ${username} successfully logged in`);
                     navigate('/valuations');
-                };
+                } else {
+                    console.log(`[Login] Response #2`);
+                }
             } catch(err) {
+                console.log(`[Login] Response #3, wrong pasword!`);
                 console.log(err);
-                console.log("wrong pasword!")
                 const notify = () => toast("wrong password!");
                 notify();
                 props.updateUser("");
