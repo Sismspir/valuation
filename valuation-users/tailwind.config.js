@@ -11,6 +11,11 @@ export default {
         'companyShadow': '-8px -8px -8px rgba(0, 0, 0.4, 0.4)'
       },
     },
+    // screens: {
+    //   'sm': '240px',
+    //   'md': '560px',
+    //   'lg': '1024px',
+    // }
   },
   plugins: [],
 }

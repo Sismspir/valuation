@@ -120,8 +120,8 @@ app.post('/server/upload', upload.single('file') , (req: Request, res: Response)
                     console.log('File structure accepted!');
                   // if the check at the columns 0-3 fails
                 } else{
-                    console.log("File structure is not accepted!");
-                    res.status(400).send('No file uploaded.');
+
+                    res.status(400).json({response: 'No file uploaded.'});
                     return console.log("File structure is not accepted!");
                 };
               };
@@ -303,11 +303,12 @@ app.post('/kasko/table', (req: Request, res: Response) => {
 
     console.log('this is the name ', fileName)
 
-    const createQuery = `CREATE TABLE ${fileName} LIKE 202311r3_kasko;`;
+    const createQuery = `CREATE TABLE ${fileName} LIKE 202310r2_kasko;`;
 
     connection2.query(createQuery, (error:Error, result) => {
         if (error) {
             res.status(500).json({ error: `Table already exists!!` });
+            console.log(error);
             return;
         } else {
             console.log("Table created successfully!");
@@ -332,7 +333,7 @@ app.post('/kasko/load', (req: Request, res: Response) => {
     OPTIONALLY ENCLOSED BY '"'
     ESCAPED BY '"'
     LINES TERMINATED BY '\n'
-    IGNORE 2 LINES;`;
+    IGNORE 1 LINES;`;
 
     connection2.query(createQuery, (error:Error, result) => {
         if (error) {
@@ -385,7 +386,6 @@ app.post('/kasko/fill', (req:Request, res:Response) => {
 //-----------------------------------Copy monthly import to eurotax---------------------
 app.post('/kasko/copy', (req:Request, res:Response) => {
 
-    // const fillQuery = `INSERT INTO sgasgr_kasko.monthly_import SELECT * FROM sgasgr_eurotax.${req.body.tableName};`;
     const copyQuery = `INSERT INTO sgasgr_eurotax.monthly_import SELECT * FROM sgasgr_kasko.monthly_import;`;
 
     connection2.query(copyQuery, (error:Error, result) => {

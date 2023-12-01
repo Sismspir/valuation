@@ -1,3 +1,4 @@
+import { useTheme } from '../Context/ThemeContext';
 import { ToastContainer, toast } from 'react-toastify';
 import { useEffect, useState } from 'react';
 import data from '../../Final Boss.json';
@@ -19,6 +20,8 @@ function Percentages() {
     const [endingYear, setEndingYear] = useState<number>(2019);
     const [yearsToMap, setYearsToMap] = useState<number[]>([2019, 2020]);
     const companies: Icompanies = {};
+    const { isDarkMode, toggleTheme } = useTheme();
+    console.log(isDarkMode);
 
     // all company names
     const companyNames = [...new Set(data.map((element) => (element.Name)))]; 
@@ -158,17 +161,17 @@ function Percentages() {
     }, [startingYear, endingYear])
 
     return(
-            <div className="mb-10 flex flex-col justify-center space-y-10">
-                <div className='mb-10 flex justify-center space-x-4'>
+            <div className="mt-10 flex flex-col justify-center space-y-8">
+                <div className='mb-8 flex justify-center space-x-16'>
                     <div>
-                    <p className='flex flex-col text-center text-xl font-bold italic text-[#477099]'>Starting</p>
-                        <select className='min-h-[3rem] p-2 h-[3vh] bg-[#5b9cd2] text-[#ffffff] text-lg' value={startingYear} name="starting" id="starting" onChange={handleStarting}>
+                    <p className={`${isDarkMode ? "text-[#f2f7f7]" : "text-[#33608d]"} flex flex-col text-center text-xl font-bold italic  mb-2`}>Starting</p>
+                        <select className='border-4 border-orange-500 rounded-full min-h-[3rem] p-2 h-[4vh] w-[8vw] bg-[#5b9cd2] text-center text-[#ffffff] text-lg' value={startingYear} name="starting" id="starting" onChange={handleStarting}>
                             {availableYears.map((year, sind) => (<option key={sind} value={year}>{year}</option>))}
                         </select>
                     </div>
                     <div>
-                        <p className='flex flex-col text-center text-xl font-bold italic text-[#477099]' >Ending</p>
-                        <select className='min-h-[3rem] p-2 h-[3vh] bg-[#5b9cd2] text-[#ffffff] text-lg' value={endingYear} name="ending" id="ending" onChange={handleEnding}>
+                        <p className={`${isDarkMode ? "text-[#f2f7f7]" : "text-[#33608d]"} flex flex-col text-center text-xl font-bold italic  mb-2`}>Ending</p>
+                        <select className='border-4 border-orange-500 text-center rounded-full min-h-[3rem] p-2 h-[4vh] w-[8vw] bg-[#5b9cd2] text-[#ffffff] text-lg' value={endingYear} name="ending" id="ending" onChange={handleEnding}>
                             {availableYears.map((year, eind) => (<option key={eind} value={year}>{year}</option>))}
                         </select>
                     </div>
