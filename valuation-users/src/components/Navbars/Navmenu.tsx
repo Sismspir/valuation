@@ -16,7 +16,7 @@ return(
                 <button className={`sm:ml-8 md:ml-16 my-4 p-2 text-white text-[2rem] rounded-md bg-[#153d5e] border-2 ${ isDarkMode ? "border-[#8492b2]" : "border-[#1c4055]"}`} onClick={setNavbar}><Menu/></button>
             </div>
             <div className='sm:flex-shrink-0 md:flex-1 invisible border-2 border-black'></div>
-            <div className='sm:flex-shrink-0 md:flex-1 h-16 flex items-center justify-center mt-3'><p className={`text-[2rem] font-bold ${ isDarkMode ? "text-[#bbc8db]" : "text-[#5f6c80]"}`}>i</p><p className={`text-[2rem] font-bold ${ isDarkMode ? "text-[#a3aabf]" : "text-[#1d3558]"}`}>A</p><p className='text-[2rem] font-bold text-[#5380c5] mr-2'>D</p> <p className={` ${ isDarkMode ? "text-[#c5cee9]" : "text-[#1d3558]"} text-[1.5rem] font-bold animated-text`}>
+            <div className='h-16 flex items-center justify-center mt-3'><p className={`text-[2rem] font-bold ${ isDarkMode ? "text-[#bbc8db]" : "text-[#5f6c80]"}`}>i</p><p className={`text-[2rem] font-bold ${ isDarkMode ? "text-[#a3aabf]" : "text-[#1d3558]"}`}>A</p><p className='text-[2rem] font-bold text-[#5380c5] mr-2'>D</p> <p className={` ${ isDarkMode ? "text-[#c5cee9]" : "text-[#1d3558]"} text-[1.5rem] font-bold animated-text`}>
                 <span className="inline-block animate-pulse">D</span>
                 <span className="inline-block animate-pulse">a</span>
                 <span className="inline-block animate-pulse">s</span>

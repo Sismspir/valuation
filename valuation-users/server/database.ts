@@ -39,6 +39,13 @@ const connection2 = mysql.createConnection({
     database: "sgasgr_kasko",
 });
 
+const connection3 = mysql.createConnection({
+    host: 'localhost',
+    user: 'root', 
+    password: 'Play16@@12@@',
+    database: "sgasgr_eurotax",
+});
+
 connection.connect((error: Error | null) => {
     if(error) {
         console.log("Error", error);
@@ -204,6 +211,28 @@ app.post('/server/anyDesk', (req: Request, res: Response) => {
     } catch (error) {
     console.error(`Error executing command: ${error}`);
     }
+});
+
+// get equipments for open cars
+app.post('/server/equip', (req: Request, res: Response) => {
+
+    const typnatcode = req.body.typnatcode;
+
+    const equipQuery = 'SELECT addeqcode, eqttext, addflag FROM addition INNER JOIN eqtext ON eqteqcode = addeqcode INNER JOIN `type` ON typnatcode = addnatcode WHERE addflag >= 2 AND typimpend = "" AND eqtlangcode = "GRGR" AND `addnatcode` = ? GROUP BY addeqcode';
+
+    connection3.query(equipQuery, [typnatcode], (error:Error, result) => {
+        if (error) {
+            throw error;
+        } else {
+            if (result.length > 0) {
+                console.log("Results found!");
+                res.status(200).json(result);
+            } else {
+                console.log("No results found!");
+                res.status(404).json(false);({response:"Incorrect password"});
+            }
+        }
+    });
 });
 
 // log the user in

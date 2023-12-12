@@ -98,20 +98,20 @@ function ShowValuations () {
         limit={4}
         theme="light"/>
       </div>
-      <div className='flex justify-center mt-12 space-x-6'>
-        <button onClick={getValuations} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 hover:bg-[#8ca3c5] hover:text-black hover:italic hover:border-[#153d5e] shadow-btnShadow'> Get valuations </button>
-        {/* show search company if the button is clicked */}
-        <form onSubmit={handleChangeInput} className="text-center mb-10 h-[2rem] w-[14rem] rounded-md" >
-          <input type="text" className="border-2 border-[#2e3875] text-center w-[12vw] min-w-[12rem] h-[3.5rem] rounded-full focus:outline-none" name="company" placeholder={placeHoldervalue} />
-          <input type="submit" className='bg-slate-800 w-[6vw] min-w-[6rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-8 hover:bg-[#8ca3c5] hover:text-black hover:border-[#153d5e] hover:italic shadow-btnShadow' value="Search"/>
-        </form>
-        <select onChange={e => setOption(e.target.value)} defaultValue={'company'} className='bg-slate-800 h-[5vh] min-h-[3rem] w-[10vw] min-w-[8rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] mt-2 shadow-btnShadow focus:outline-none' id="id">
-          <option value="company">Company</option>
-          <option value="id">Id</option>
-        </select>
-      </div>
+        <div className='flex justify-center space-x-5 space-y-5 my-10'>
+          <button onClick={getValuations} className='bg-slate-800 h-[7vh] min-h-[4rem] p-1 mt-5 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] hover:bg-[#8ca3c5] hover:text-black hover:italic hover:border-[#153d5e] shadow-btnShadow flex-1'> Get valuations </button>
+          {/* show search company if the button is clicked */}
+          <form onSubmit={handleChangeInput} className="text-center h-[2rem] w-[14rem] rounded-md" >
+            <input type="text" className="border-2 border-[#2e3875] text-center h-[3.5rem] mb-5 rounded-full focus:outline-none" name="company" placeholder={placeHoldervalue} />
+            <input type="submit" className='bg-slate-800 w-[6vw] min-w-[6rem] mt-4 p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] hover:bg-[#8ca3c5] hover:text-black hover:border-[#153d5e] hover:italic shadow-btnShadow flex-2' value="Search"/>
+          </form>
+          <select onChange={e => setOption(e.target.value)} defaultValue={'company'} className='bg-slate-800 h-[7vh] min-h-[3rem] p-1 border-2 border-[#8f93a8] rounded-md text-center font-semibold text-[#ffffff] shadow-btnShadow focus:outline-none flex-1' id="id">
+            <option value="company">Company</option>
+            <option value="id">Id</option>
+          </select>
+        </div>
       {loading ? <div className="my-32 flex justify-center italic"><Loading/></div> :
-      <table className="my-10">
+      <table className="my-32">
           <thead>
               <tr className="font-[ui-serif] text-[#e48d46] text-[1.2rem] table-auto bg-[#153d5e]">
                   {tablekeys.map((header) => (

@@ -345,7 +345,7 @@ function Casco() {
                 {!btnStateLoading[1] ? (<p>Connect to anydesk</p>) : <LoadingBtn/>} 
                 </button>} */}
                 {btnHasPressed[1] && 
-                <button disabled={btnFree} onClick={createTable} className="shadow-btnShadow mt-4 mx-auto w-[10vw] min-w-[15rem] h-[3vh] min-h-[4rem] text-center font-bold text-[#463e52] italic bg-[#d3e4f0] rounded-md tracking-wider hover:bg-[#77a7be] hover:text-[#ffffff]">
+                <button disabled={btnFree} onClick={createTable} className="shadow-btnShadow mt-4 mx-auto w-[12vw] min-w-[15rem] h-[3vh] min-h-[4rem] text-center font-bold text-[#463e52] italic bg-[#d3e4f0] rounded-md tracking-wider hover:bg-[#77a7be] hover:text-[#ffffff]">
                 {!btnStateLoading[2] ? (<p>Create kasko Table</p>) : <LoadingBtn/>}  
                 </button>}
             </div>
@@ -375,7 +375,7 @@ function Casco() {
                 </button>}
             </div>
             {/* The parent div inherits the width of the div below*/}
-            <div className='bg-[#325474] border-2 border-[#325474] h-[40vh] w-[50vw] mt-16 shadow-btnShadow rounded-lg flex'>
+            <div className='bg-[#325474] border-2 border-[#325474] h-[45vh] w-[50vw] mt-16 shadow-btnShadow rounded-lg flex'>
                 <div className='md:w-1/2 sm:w-screen flex-col border-dotted border-r-4 position-fixed overflow-y-auto overflow-x-hidden'>
                     <h2 className='text-center text-[#e7efa3] text-[1.6rem] font-medium border-b-2 mx-4  border-[#ffffff] mb-4'>Process</h2>
                     <div className='border-[#ffffff] relative'>
@@ -385,25 +385,25 @@ function Casco() {
                 <div className='md:w-1/2 sm:w-[0vw] flex-col position-fixed overflow-hidden sm:invisible md:visible'>
                         <h2 className='text-center text-[#dee59e] text-[1.6rem] font-medium border-b-2 mx-4  border-[#ffffff] mb-4 '>Steps</h2>
                         <ul>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 1.&nbsp; Choose a file to upload</p>
                             </li>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 2.&nbsp; Press the upload button</p>
                             </li>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 3.&nbsp; Press the create table button</p>
                             </li>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 4.&nbsp; Press the Load table button</p>
                             </li>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 5.&nbsp; Truncate monthly import table</p>
                             </li>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 6.&nbsp; Fill monthly import table</p>
                             </li>
-                            <li className='text-[1.3rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
+                            <li className='text-[0.82rem] border-b-2 border-[#ffffff] flex space-x-8 my-2 mx-4'>
                                 <p className='text-[#eff3c7] tracking-wide font-semibold'> 7.&nbsp; Copy monthly import table to eurotax</p>
                             </li>
                             <li><button disabled={btnFree} onClick={()=>{setMessages([])}} className='flex items-center justify-center w-1/2 mx-auto rounded-full text-center text-[#fad995] font-bold bg-[#23768a] mt-10 mb-4 py-3 tracking-wider shadow-btnShadow hover:bg-[#2a7c44]'>Clear Process</button>
