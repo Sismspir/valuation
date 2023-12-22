@@ -12,6 +12,10 @@ function Equipments() {
     const [tablekeys, setTablekeys] = useState<string[]>();
     const [loading, setLoading] = useState<boolean>(false);
 
+
+    const myStyles = {
+        "eqClickedStyle" : 'text-orange-600 bg-slate-100 font-bold'
+    }
     const getEquipments = async (e: FormEvent<HTMLFormElement>) => {
 
         const input = e.currentTarget.company.value;  
@@ -67,11 +71,11 @@ function Equipments() {
                     {equipments?.map((equip, index) => (
                         <tr onClick={() => {handleClick(index)}}
                             key={index}
-                            className={
-                                `${equip['isClicked'] && "bg-[#2b6d6a] text-[#ffffff]"} ${
-                                index % 2 === 0
-                                    ? "text-center text-[#c5b8b8] border border-slate-600 bg-slate-700 hover:bg-slate-500 hover:text-white"
-                                    : "text-center text-[#d6caca] border border-slate-600 bg-slate-600 hover:bg-slate-500 hover:text-white"
+                            className={`                            
+                                ${
+                                    index % 2 === 0
+                                        ? `${ equip.isClicked ? myStyles.eqClickedStyle :"bg-slate-500 text-[#f5d5d5]"} text-center cursor-pointer border border-slate-600  hover:bg-slate-500 hover:text-white`
+                                        : `${ equip.isClicked ? myStyles.eqClickedStyle :"bg-slate-600 text-[#e0dddd]"} text-center cursor-pointer border border-slate-600   hover:bg-slate-500 hover:text-white`
                                 }`
                             }>
                             { tablekeys?.map((key) => (

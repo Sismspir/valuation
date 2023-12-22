@@ -10,6 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { TbRulerMeasure } from "react-icons/tb";
 import { useEffect, useState, FormEvent, useRef } from 'react';
 import { useTheme } from '../Context/ThemeContext';
+import { Controller } from 'swiper/modules';
 import Loading from './Loading';
 import  axios  from 'axios';
 
@@ -35,11 +36,13 @@ function ChooseCar() {
 
     const [img, setImg] = useState<string>();
     const [separatedImages, setSeparatedImages] = useState<string[]>([]);
+    const [tempIndex, setTempIndex] = useState<number>(0);
+    const [allImages, setAllImages] = useState<string[]>([]);
     const [moreSeparatedImages, setMoreSeparatedImages] = useState<string[]>([]);
     const [specsShown, setSpecsShown] = useState<boolean>(true);
     const [carSpecs, setCarSpecs] = useState<Icar>()
     const [loading, setLoading] = useState<boolean>(false);
-    const [rotated, setRotated] = useState<boolean>(false)
+    const [rotated, setRotated] = useState<boolean>(true);
     const { isDarkMode, toggleTheme } = useTheme();
     console.log(isDarkMode);
 
@@ -70,11 +73,12 @@ function ChooseCar() {
     useEffect(() => {
       
       const separated = img?.split(',').map((image) => image.trim());
-    
+      
       if (separated) {
+        setAllImages(separated);
         const middleOfImages =  Math.ceil(separated.length/2);
         setSeparatedImages(separated.slice(0, middleOfImages));
-        setMoreSeparatedImages(separated.slice(middleOfImages + 1));
+        setMoreSeparatedImages(separated.slice(middleOfImages));
       };
 
     }, [img]);
@@ -84,18 +88,17 @@ function ChooseCar() {
 
     const turnPage = async() => {
       const rotationY = '-360deg'; 
-     
+
       const page = document.querySelector('.page');
       
       if (rotated) setLoading(true);
-      await gsap.to(page, { duration: 1, rotationY });
+      await gsap.to(page, { duration: 1.5, rotationY });
       setRotated(!rotated);
 
       // works only loading is true
       setLoading(false);
+      
     };
-
-    // Animation code
 
     const addThousandSeparator = (number: number) => {
       return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -118,25 +121,24 @@ function ChooseCar() {
                 {loading ? <Loading/> : img ?
                 rotated ?
                 <div className='h-[20rem] min-h-[25rem] w-[65rem] border-2 border-[#5f5c5c] bg-[#ffffff] shadow-btnShadow flex relative'>
-                        {/*Car DIV */}
+                        {/*White Car DIV */}
                         <div className='w-1/2 h-full flex justify-center items-center'>
                             <Swiper
                             className="border-r-2 border-[#613c1e]"
                             modules={[Navigation, Pagination, Scrollbar, A11y]}
-                            spaceBetween={20}
+                            spaceBetween={10}
                             slidesPerView={1}
                             pagination={{ clickable: true }}
-                            scrollbar={{ draggable: true }}
-                            onSwiper={(swiper) =>  swiper.slideNext()}
                             navigation
                           > 
-                            {separatedImages.map(img => <SwiperSlide>
-                              <img 
-                                className=""
-                                src={img}
-                                alt="new"
-                            /> 
-                            <div className="h-[2rem] invisible" slot="wrapper-end">ok</div>
+                            {separatedImages.map((image)=> 
+                              <SwiperSlide key={image}>
+                                <img 
+                                  className="text-center"
+                                  src={image}
+                                  alt={`Slide ${tempIndex}`}
+                              /> 
+                              <div className="h-[2rem] invisible" slot="wrapper-end">ok</div>
                             </SwiperSlide>)
                             }
                             
@@ -225,22 +227,22 @@ function ChooseCar() {
                 </div>
             </div> : 
             (<div className='page h-[20rem] min-h-[25rem] w-[65rem] border-2 border-[#5f5c5c] bg-[#1f1d1d] shadow-btnShadow flex relative'>
-                  {/*Car DIV */}
+                  {/*Black Car DIV */}
                   <div className='w-1/2 h-full flex justify-center items-center'>
                         <Swiper
-                        className="border-r-2 border-dashed border-[#53473d]"
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
+                        className="border-r-2 border-dashed border-[#a08671]"
+                        modules={[Navigation, Pagination, Scrollbar, A11y, Controller]}
                         spaceBetween={20}
                         slidesPerView={1}
                         pagination={{ clickable: true }}
-                        onSwiper={(swiper) =>  swiper.slideNext()}
-                        navigation> 
-                          {moreSeparatedImages.map(img => 
-                          <SwiperSlide>
+                        navigation
+                       > 
+                          {moreSeparatedImages.map((img, i) => 
+                          <SwiperSlide key = {i}>
                             <img 
                               className=""
                               src={img}
-                              alt="new"
+                              alt={`${i}`}
                           /> 
                           {moreSeparatedImages.length > 1 && <div className="h-[2rem] invisible" slot="wrapper-end">ok</div>}
                           </SwiperSlide>)}                            

@@ -21,8 +21,6 @@ import { CiLogout as Logout} from "react-icons/ci";
 import { FaCar as Car} from "react-icons/Fa";
 import { useState, useEffect } from 'react';
 
-
-
 function App() {
   const navItemsClass = 'w-full text-[#1c4055] font-serif text-[1.2rem] border-b-2 border-transparent hover:border-[#5380c5]';
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
@@ -77,7 +75,7 @@ function App() {
             </div>
           </div>
 
-          <div className='mt-[5rem] w-full absolute flex justify-center'>
+          <div onClick={() => setNavbarOpen(false)} className='mt-[5rem] w-full absolute flex justify-center'>
             <div id="table-content">
                 <Routes>  
                   <Route index path="/login" element={<Login updateUser={setUserLoggedIn}/>} />
