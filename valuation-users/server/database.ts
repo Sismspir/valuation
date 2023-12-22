@@ -430,6 +430,25 @@ app.post('/kasko/copy', (req:Request, res:Response) => {
 })
 //-----------------------------------Copy monthly import to eurotax---------------------
 
+
+app.post('/choose/car', (req:Request, res:Response) => {
+
+    const tipnatcd = req.body.typnatcode
+
+    const getCar = `SELECT t.typnatcode, t.typimpbegin, m.makname, mo.modnamegrp1, CONCAT(typname,typname2,typname3) AS "typinfo", LEFT(t.typimpbegin, 4) AS YEAR, RIGHT(t.typimpbegin, 2) AS MONTH, p.prinp1, CASE	WHEN ISNULL(q.quoquoty) THEN 0.00 WHEN PERIOD_DIFF(CONCAT(YEAR(CURDATE()), MONTH(CURDATE())) ,typimpbegin) > 6 THEN q.quoquoty ELSE 0.00 END AS "Τιμή_Μεταχειρισμένου", typlength, typwidth, typheight, typtotwgt,CASE WHEN t.typtxtfueltypecd2 = "00100004" THEN c.tcoconspow WHEN t.typimpbegin >= 202101 THEN c.tcowltptot ELSE c.tcoconstot END AS "Κατανάλωση καυσήμου", c.tcoaccel, typtxtfueltypecd2, CASE WHEN t.typtxtfueltypecd2 IN ("00100001", "00100003", "00100011") THEN t.typkw ELSE t.typtoteleckw END  AS KW, CASE WHEN t.typtxtfueltypecd2 = "00100004" THEN t.typtotelechp ELSE t.typhp END  AS HP, CASE WHEN t.typtxtfueltypecd2 = "00100011" THEN c.tcogasco2emi ELSE c.tcoco2emi END  AS CO2, BodyType.TXTTextLong AS "BodyType", Fuelinfo.TXTTextLong AS "Fuel",Transition.TXTTextLong AS "Transition", (SELECT  GROUP_CONCAT(CONCAT_WS("","https://sgas.gr/services/private/car_image/L/l",im.imgphysname,".jpg") SEPARATOR ', ') FROM mediaetx med INNER JOIN IMAGES im ON med.MEDIMGObjectCd = im.IMGID WHERE t.typnatcode = med.MEDNatCode LIMIT 5) AS imageLink FROM price p INNER JOIN type t ON t.typnatcode = p.prinatcode AND t.typvehtype != 40  AND t.typimpend = "" AND p.prinp1 > 1 INNER JOIN make m ON t.typmakcd = m.maknatcode AND m.makvehtype = t.typvehtype AND m.maklangcode = 'GRGR' INNER JOIN model mo ON t.typmodcd = mo.modnatcode AND mo.modlangcode = 'GRGR' LEFT JOIN quotat q ON q.quonatcode = t.typnatcode LEFT JOIN consumer c ON t.typnatcode = c.tconatcode INNER JOIN (SELECT DISTINCT TXTTextLong, TXTCode FROM TXTTABEL INNER JOIN type ON type.typtxtfueltypecd2 = TXTTabel.TXTCode AND TXTLangCode = 'GRGR') AS Fuelinfo  ON t.typtxtfueltypecd2 = Fuelinfo.TXTCode INNER JOIN (SELECT DISTINCT TXTTextLong, TXTCode FROM TXTTABEL INNER JOIN type ON type.typtxtbodyco1cd2 = TXTTabel.TXTCode AND TXTLangCode ='GRGR') AS BodyType  ON t.typtxtbodyco1cd2 = BodyType.TXTCode INNER JOIN (SELECT DISTINCT TXTTextLong, TXTCode FROM TXTTABEL INNER JOIN type ON type.typtxttranstypecd2 = TXTTabel.TXTCode AND TXTLangCode ='GRGR') AS Transition ON t.typtxttranstypecd2 = Transition.TXTCode WHERE typnatcode = ${tipnatcd} AND CASE WHEN ISNULL(q.quonatcode) THEN 1=1 ELSE CONCAT(q.quoyquot, q.quomquot) = (SELECT MAX(CONCAT(quoyquot, quomquot)) FROM quotat WHERE quonatcode = q.quonatcode)END;`;
+
+connection3.query(getCar, (error:Error, result) => {
+    if(error) {
+        res.status(500).json({ error: `Failed to get the car` });
+        console.log(error);
+        return;
+    } else {
+        console.log("Tipkodu was found!");
+        res.status(200).json(result);
+    };
+})
+})
+
 app.listen(port, () => {
     console.log(`Server is listening on port: ${port}`);
 });

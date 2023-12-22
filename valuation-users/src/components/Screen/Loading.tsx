@@ -1,7 +1,9 @@
+import { useTheme } from '../Context/ThemeContext';
 function Loading() {
+    const { isDarkMode, toggleTheme } = useTheme();
     return(
-        <div aria-label="Loading..." role="status" className="flex items-center space-x-2 italic shadow-btnShadow rounded-full px-2">
-            <svg className="h-14 w-24 stroke-[#153d5e] spin-slow" viewBox="0 0 256 256">
+        <div aria-label="Loading..." role="status" className="flex items-center italic shadow-btnShadow rounded-full px-2">
+            <svg className={`  spin-slow h-14 w-24 ${isDarkMode ?  "stroke-[#e0b642]" : "stroke-[#232870]"}  `} viewBox="0 0 256 256">
             <line x1="128" y1="32" x2="128" y2="64" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line>
             <line x1="195.9" y1="60.1" x2="173.3" y2="82.7" stroke-linecap="round" stroke-linejoin="round"
                 stroke-width="24"></line>
@@ -17,7 +19,7 @@ function Loading() {
             <line x1="60.1" y1="60.1" x2="82.7" y2="82.7" stroke-linecap="round" stroke-linejoin="round" stroke-width="24">
             </line>
             </svg>
-            <span className="text-3xl font-medium text-[#52748f] ">Loading...</span>
+            <span className={ `text-3xl font-medium mr-4 ${isDarkMode ?  "text-[#e0b642]" : "text-[#232870]"} `}>Loading...</span>
         </div>
     )
 }

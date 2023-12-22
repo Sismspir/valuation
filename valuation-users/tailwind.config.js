@@ -9,7 +9,7 @@ export default {
       boxShadow: {
         'btnShadow': '0px 4px 8px rgba(0, 0, 0.4, 0.4)',
         'companyShadow': '-8px -8px -8px rgba(0, 0, 0.4, 0.4)'
-      },
+      }
     },
     // screens: {
     //   'sm': '240px',

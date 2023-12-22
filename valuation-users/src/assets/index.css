@@ -8,6 +8,28 @@ html, body {
   animation: spin 2s linear infinite;
 }
 
+.custom-transition {
+  transition: height 0.8s ease-out; /* Adjust the timing to your preference */
+}
+
+.swiper-notification {
+  visibility:hidden;
+  display:none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: rgb(246, 246, 247);
+  border-radius: 15%;
+  color: rgb(45, 62, 70) !important;
+  z-index: 999;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: transparent;
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
