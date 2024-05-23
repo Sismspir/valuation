@@ -71,7 +71,7 @@ const Register: React.FC = () => {
             theme="light"/>
         </div>
         {registering ? <Loading/> : <div className='w-[35vw]'>
-        <div className='mt-4 mb-2 text-center font-serif font-bold'><div className='tracking-wider font-serif text-2xl text-[#254352] text-center mb-2 font-bold mx-auto w-1/2'>Register</div></div>
+        <div className='mt-16 mb-2 text-center font-serif font-bold'></div>
         <form className="flex flex-col space-y-6 bg-[#708f97] rounded-md p-2 py-4" action="submit" onSubmit={(e) => {handleRegister(e)}}>
             <input className='text-center rounded-md focus:outline-none  placeholder-[#706161] italic' placeholder='username' name='username' type="text" />
             <input className='text-center rounded-md focus:outline-none placeholder-[#706161] italic' placeholder='email' name='email' type="email" />

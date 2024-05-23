@@ -9,13 +9,16 @@ export default {
       boxShadow: {
         'btnShadow': '0px 4px 8px rgba(0, 0, 0.4, 0.4)',
         'companyShadow': '-8px -8px -8px rgba(0, 0, 0.4, 0.4)'
-      }
+      },
+      rotate: {
+        'y-180': 'rotateY(180deg)',
+      },
     },
-    // screens: {
-    //   'sm': '240px',
-    //   'md': '560px',
-    //   'lg': '1024px',
-    // }
+    screens: {
+      'sm': '240px',
+      'md': '560px',
+      'lg': '1024px',
+    }
   },
   plugins: [],
 }

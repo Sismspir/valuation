@@ -1,5 +1,5 @@
 html, body {
-    background: linear-gradient(to bottom, #f4f7ffd2, #6c8bbb, #f4f7ffd2);
+    background: linear-gradient(to bottom, #eaebf0d2, #b4b2ac, #fffefed2);
     margin: 0;
     padding: 0;
   }
@@ -12,14 +12,9 @@ html, body {
   transition: height 0.8s ease-out; /* Adjust the timing to your preference */
 }
 
-.swiper-notification {
-  visibility:hidden;
-  display:none;
-}
-
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: rgb(246, 246, 247);
+  background-color: rgb(255, 255, 255);
   border-radius: 15%;
   color: rgb(45, 62, 70) !important;
   z-index: 999;

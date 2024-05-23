@@ -2,8 +2,6 @@ import { AiOutlineMenu as Menu } from 'react-icons/Ai';
 import { useTheme } from '../Context/ThemeContext';
 import { FaMoon as Moon} from "react-icons/Fa";
 import { FaRegSun as Sun} from "react-icons/fa6";
-import { useContext, useState } from 'react';
-
 
 function Navmenu( { setNavbar }: any) {
 
@@ -31,9 +29,9 @@ return(
            
             <div onClick={toggleTheme} className='flex-1 py-2 text-3xl text-[#223451] flex items-center justify-center'>
             { isDarkMode ?
-                <div className='bg-[#92b4c6] px-3 py-2 rounded-full border-dashed border-4 border-[#112f33]'><Moon/></div> 
+                <div className='bg-[#92b4c6] px-3 py-2 rounded-full  border-2 border-[#112f33]'><Moon/></div> 
                 :
-                <div className='bg-[#b3c4cd] px-3 py-2 rounded-full border-solid border-2 border-[#3f4950]'><Sun/></div> 
+                <div className='bg-[#ffffff] px-3 py-2 rounded-full border-solid border-2 border-[#175572]'><Sun/></div> 
             }
             </div>
         </div>
