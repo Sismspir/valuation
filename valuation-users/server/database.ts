@@ -20,7 +20,7 @@ const saltRounds = 12;
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', 
-    password: 'Play16@@12@@',
+    password: 'pass',
     database: "valuationusers",
 });
 
