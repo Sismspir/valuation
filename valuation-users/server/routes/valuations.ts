@@ -7,7 +7,7 @@ const valuationRouter = express.Router();
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', 
-    password: 'Play16@@12@@',
+    password: 'pass',
     database: "valuationusers",
 });
 
