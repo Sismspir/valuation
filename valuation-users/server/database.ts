@@ -35,14 +35,14 @@ connection.connect((error: Error | null) => {
 const connection2 = mysql.createConnection({
     host: 'localhost',
     user: 'root', 
-    password: 'Play16@@12@@',
+    password: 'pass',
     database: "sgasgr_kasko",
 });
 
 const connection3 = mysql.createConnection({
     host: 'localhost',
     user: 'root', 
-    password: 'Play16@@12@@',
+    password: 'pass',
     database: "sgasgr_eurotax",
 });
 
