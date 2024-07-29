@@ -1,1 +1,1 @@
-Customer managmenet application created with typescript
+Content management application created with TypeScript, aimed at automating various processes.
